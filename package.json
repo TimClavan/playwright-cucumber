@@ -1,0 +1,18 @@
+{
+  "name": "playwright-cucumber",
+  "version": "1.0.0",
+  "description": "Playwright in combination with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.6",
+    "@cucumber/cucumber": "^10.0.0",
+    "ts-node": "^10.9.1"
+  }
+}
